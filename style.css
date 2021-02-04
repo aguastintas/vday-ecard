@@ -100,7 +100,15 @@ p {
   box-shadow: #441824 10px 10px;
 }
 
-#quote {
-  display: flex;
-  justify-content: center;
+
+@media screen and (max-width: 720px) {
+  p {
+    font-size: 1.5em;
+  }
+  #mensaje {
+    margin: 3em;
+  }
+  #choose {
+    max-width: 300px;
+  }
 }
